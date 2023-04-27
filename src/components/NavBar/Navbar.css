@@ -1,0 +1,28 @@
+.navbar_bar {
+    height: 50px;
+    width: 100%;
+    background: #1b2430;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.img_tag_item {
+    padding-left: 2rem;
+}
+
+.login_button {
+    width: 6rem;
+    height: 2.5rem;
+    margin: 0 30px;
+    background: blueviolet;
+    outline: none;
+    border: 2px solid gray;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    font-weight: 700;
+}

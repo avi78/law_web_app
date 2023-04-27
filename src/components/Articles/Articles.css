@@ -1,0 +1,33 @@
+.articles_main_div {
+    overflow-y: scroll;
+    width: auto;
+    height: 630px;
+}
+
+.article_container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.poster_box {
+    width: 15rem;
+    height: auto;
+    padding: 10px;
+    object-fit: contain;
+}
+
+.text_box {
+    display: flex;
+    flex-direction: column;
+    margin: 4px 20px;
+    width: 100%;
+}
+
+.Poster_style {
+    width: 250px;
+    height: 220px;
+    object-fit: fill;
+}
